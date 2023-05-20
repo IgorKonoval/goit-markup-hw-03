@@ -7,6 +7,7 @@
   --hero-button-link-color: #404bbf;
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
+  --border-color: #e7e9fc;
 }
 
 p,
@@ -42,7 +43,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 1px solid tomato;
 }
 
 .list {
@@ -88,7 +88,7 @@ body {
 }
 
 .header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .container-nav {
@@ -114,7 +114,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--header-color);
-  display: flex;
   gap: 40px;
 }
 
@@ -124,7 +123,6 @@ body {
 }
 
 .address-list {
-  display: flex;
   gap: 40px;
 }
 
@@ -263,6 +261,16 @@ body {
 
 /* Portfolio main */
 
+.container-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.button-list {
+  padding-bottom: 72px;
+  justify-content: center;
+}
+
 .button-portfolio {
   font-family: var(--primary-font);
   font-weight: 500;
@@ -272,10 +280,28 @@ body {
   color: var(--link-color);
   background-color: var(--cloud-footer-color);
   cursor: pointer;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  align-items: center;
+  padding: 12px 24px;
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
   color: var(--hero-bkgrd-color);
   background-color: var(--hero-button-link-color);
+}
+
+.gallery-list {
+  flex-wrap: wrap;
+}
+
+.image {
+  width: calc((100% - 2 * 24px) / 3);
+  border: 1px solid var(--border-color);
+}
+
+.gallery-text {
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
