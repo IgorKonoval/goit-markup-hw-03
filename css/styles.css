@@ -111,9 +111,9 @@ body {
   gap: 40px;
 }
 
-.sate-navi {
+/* .sate-navi {
   padding: 24px 0;
-}
+} */
 
 .sate-nav {
   font-weight: 500;
@@ -127,6 +127,7 @@ body {
   display: flex;
   margin-left: auto;
   align-items: center;
+  padding: 24px 0;
 }
 
 .address-list {
