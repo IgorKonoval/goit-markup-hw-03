@@ -58,15 +58,14 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--link-color);
+}
+
+.logo-head {
   margin-right: 76px;
 }
 
 .logo-header {
   color: var(--header-color);
-}
-
-.logo-footer {
-  color: var(--cloud-footer-color);
 }
 
 .visually-hidden {
@@ -198,7 +197,7 @@ body {
 .container-work {
   display: flex;
   flex-direction: column;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
 }
 
 .section-work {
@@ -224,14 +223,14 @@ body {
   background: var(--cloud-footer-color);
 }
 
-.header-team {
+/* .header-team {
   padding-top: 120px;
   padding-bottom: 120px;
-}
+} */
 
 .cloud-list {
   background-color: var(--hero-bkgrd-color);
-  margin-top: 72px;
+  /* margin-top: 72px; */
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
@@ -257,7 +256,7 @@ body {
 
 .team {
   text-align: center;
-  padding-bottom: 8px;
+  /* padding-bottom: 8px; */
 }
 
 .footer {
@@ -269,6 +268,10 @@ body {
 .container-footer {
 }
 
+.logo-footer {
+  color: var(--cloud-footer-color);
+}
+
 .logo-foot {
   display: inline-block;
   margin-bottom: 16px;
@@ -277,6 +280,7 @@ body {
 .footer-text {
   color: var(--cloud-footer-color);
   max-width: 264px;
+  letter-spacing: 0.02em;
 }
 
 /* Portfolio main */
