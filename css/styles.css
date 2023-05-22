@@ -110,10 +110,6 @@ body {
   gap: 40px;
 }
 
-/* .sate-navi {
-  padding: 24px 0;
-} */
-
 .sate-nav {
   font-weight: 500;
   line-height: 1.5;
@@ -197,7 +193,6 @@ body {
 .container-work {
   display: flex;
   flex-direction: column;
-  /* padding-bottom: 120px; */
 }
 
 .section-work {
@@ -223,14 +218,11 @@ body {
   background: var(--cloud-footer-color);
 }
 
-/* .header-team {
-  padding-top: 120px;
-  padding-bottom: 120px;
-} */
+.header-team {
+}
 
 .cloud-list {
   background-color: var(--hero-bkgrd-color);
-  /* margin-top: 72px; */
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
@@ -256,7 +248,6 @@ body {
 
 .team {
   text-align: center;
-  /* padding-bottom: 8px; */
 }
 
 .footer {
@@ -281,6 +272,7 @@ body {
   color: var(--cloud-footer-color);
   max-width: 264px;
   letter-spacing: 0.02em;
+  line-height: 24px;
 }
 
 /* Portfolio main */
